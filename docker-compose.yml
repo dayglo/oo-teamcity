@@ -1,0 +1,16 @@
+subversion:
+    volumes:
+        - /Users/gee/Dropbox/work/al/OO/OObuild/subversion/repo:/var/svn
+    environment:
+        - SVN_REPONAME=repos
+    image: erikxiv/subversion
+    ports:
+        - "3690:3690"
+teamcity:
+    image: sjoerdmulder/teamcity:latest
+    ports:
+        - "8111:8111"
+    links:
+        - subversion
+    volumes:
+        - /Users/gee/Dropbox/work/al/OO/OObuild/teamcity/data:/var/lib/teamcity
