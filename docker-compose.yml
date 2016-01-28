@@ -14,3 +14,10 @@ teamcity:
         - subversion
     volumes:
         - /Users/gee/Dropbox/work/al/OO/OObuild/teamcity/data:/var/lib/teamcity
+        - /var/run/docker.sock:/var/run/docker.sock
+agent:
+  build: agent
+  links:
+    - teamcity
+  ports:
+    - "9090:9090"
