@@ -1,0 +1,262 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: ngANqza5/whaYZFfNQhzhT/iRBA=
+Created-By: 1.6.0_29 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: xX2YT+Yt8WtUo1NXnjrKp4t7EsU=
+
+Name: org/sonatype/aether/aether-spi/1.11/aether-spi-1.11.jar
+SHA1-Digest: N+aVRlAxbTBVSH2SjPeNrP27XcQ=
+
+Name: org/apache/maven/maven-settings/3.0.3/maven-settings-3.0.3.jar
+SHA1-Digest: Jx5vCFbGtNyrheChmuretZra1eE=
+
+Name: org/twdata/maven/mojo-executor/2.0/mojo-executor-2.0.jar
+SHA1-Digest: 6vzB6J4gOnDfEwjxd+fy78l6ORs=
+
+Name: com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-ann
+ otations-2.2.2.jar
+SHA1-Digest: y+XXOUHdns6v0DsRXbfqJoJ1d7g=
+
+Name: com/hp/oo/sdk/oo-abstract-plugins/10.20.8/oo-abstract-plugins-10
+ .20.8.pom
+SHA1-Digest: Rj3QsBNvEuwoFPh1GMo7J4YzLoI=
+
+Name: com/hp/oo/sdk/oo-maven-support/10.20.8/oo-maven-support-10.20.8.
+ jar
+SHA1-Digest: sszyZJongaoc8jsBdcSSENOPNuk=
+
+Name: com/hp/oo/sdk/oo-plugin-archetype/10.20.8/oo-plugin-archetype-10
+ .20.8.pom
+SHA1-Digest: 20d9PaRhnGQSzKv4mLhXktbvcC8=
+
+Name: com/hp/oo/sdk/oo-dotnet-action-plugin/10.20.8/oo-dotnet-action-p
+ lugin-10.20.8.jar
+SHA1-Digest: fJurbUPzjBKbKrryviXN7f8WhzM=
+
+Name: commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+SHA1-Digest: 0LAkYfNZO0gNpIv6EHYtLauO+U4=
+
+Name: org/apache/maven/maven-plugin-api/3.0.3/maven-plugin-api-3.0.3.j
+ ar
+SHA1-Digest: +szjeT9ep9DhcG5RG//3VfI/A5Y=
+
+Name: org/apache/maven/maven-core/3.0.3/maven-core-3.0.3.jar
+SHA1-Digest: v21RCalIk+hyitDNhFgkN+hEXho=
+
+Name: org/springframework/spring-beans/4.0.0.RELEASE/spring-beans-4.0.
+ 0.RELEASE.jar
+SHA1-Digest: sZJYMh7yxevmQN+ncRPKw28NEWI=
+
+Name: org/apache/maven/maven-aether-provider/3.0.3/maven-aether-provid
+ er-3.0.3.jar
+SHA1-Digest: uE4NfvQbalDYExvBLjhYDPa43TU=
+
+Name: net/sf/jni4net/jni4net.j/0.8.6.0/jni4net.j-0.8.6.0.jar
+SHA1-Digest: IZnwTNQ5dLblAExJ9fWb8ds39E8=
+
+Name: org/apache/maven/wagon/wagon-http/1.0/wagon-http-1.0.jar
+SHA1-Digest: KoAxsxrMpjYBrjdWCflpg8i3H+4=
+
+Name: aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+SHA1-Digest: XXFrdyQFc0/gWIr2tiHPRt90OCs=
+
+Name: com/hp/oo/sdk/oo-action-plugin/10.20.8/oo-action-plugin-10.20.8.
+ jar
+SHA1-Digest: 8BLrDDd6Qdl2CfE+g0xseProXXc=
+
+Name: com/hp/oo/sdk/oo-sdk/10.20.8/oo-sdk-10.20.8.jar
+SHA1-Digest: 0HB3NZaRvVKAvNGlvJcda+gpj4k=
+
+Name: com/hp/oo/sdk/sdk-plugin-adapters/10.20.8/sdk-plugin-adapters-10
+ .20.8.pom
+SHA1-Digest: dXqt+35UEpAF0AnNePVx413xxeM=
+
+Name: org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar
+SHA1-Digest: Ml4nGgKCGlBGGZQL7DX7NocI8vs=
+
+Name: com/hp/oo/sdk/oo-dotnet-action-plugin-proxy/10.20.8/oo-dotnet-ac
+ tion-plugin-proxy-10.20.8.pom
+SHA1-Digest: aNw3PDA+n7NhF5nW3AiNnhIUZd0=
+
+Name: com/hp/oo/sdk/oo-contentpack-maven-plugin/10.20.8/oo-contentpack
+ -maven-plugin-10.20.8.pom
+SHA1-Digest: cFTvustMNu3m+XYTfWgPNkHCesU=
+
+Name: com/hp/oo/sdk/oo-sdk/10.20.8/oo-sdk-10.20.8.pom
+SHA1-Digest: OgdyiPFPN1Hwankay3UY1nJ24QE=
+
+Name: com/hp/oo/sdk/oo-action-plugin/10.20.8/oo-action-plugin-10.20.8.
+ pom
+SHA1-Digest: xbou0F7kCg7O5zy4Ny4sCTNx2Ok=
+
+Name: org/sonatype/aether/aether-connector-wagon/1.13/aether-connector
+ -wagon-1.13.jar
+SHA1-Digest: 1jfaRz0YeqRzpjOh3StbFNeBEec=
+
+Name: com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2
+ .jar
+SHA1-Digest: FN7wy0nHGScQO/PyNT7asMu2V98=
+
+Name: org/apache/maven/maven-repository-metadata/3.0.3/maven-repositor
+ y-metadata-3.0.3.jar
+SHA1-Digest: Y2Wn142P808X64er78qsH1O6bNI=
+
+Name: org/apache/maven/maven-compat/3.0.3/maven-compat-3.0.3.jar
+SHA1-Digest: tG4XNDnfC1RiPbt59Af4uTIRtd4=
+
+Name: org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar
+SHA1-Digest: IIP2iGeUqUX5tj4KMCT2RG0Esgg=
+
+Name: org/apache/maven/maven-model-builder/3.0.3/maven-model-builder-3
+ .0.3.jar
+SHA1-Digest: vP6ABUHch0QJEYek11llpqtNfNU=
+
+Name: org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-co
+ mponent-annotations-1.5.5.jar
+SHA1-Digest: oY/GT/2c3q32YRXp50qJhv8GfRg=
+
+Name: commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1
+ .jar
+SHA1-Digest: /b5mBL27BiloEhssvJxLhTZ46Bo=
+
+Name: com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databi
+ nd-2.2.2.jar
+SHA1-Digest: l7fGjXjVZjDBJhdN5b44I74+QsI=
+
+Name: com/hp/oo/sdk/oo-legacy-action-plugin/10.20.8/oo-legacy-action-p
+ lugin-10.20.8.jar
+SHA1-Digest: tW7ybc3VLu+oVoCHJZMcloak/FI=
+
+Name: commons-io/commons-io/2.3/commons-io-2.3.jar
+SHA1-Digest: tilVP3yxmMN5Duxz52Jbkp5YF/c=
+
+Name: net/sf/scannotation/scannotation/1.0.2/scannotation-1.0.2.jar
+SHA1-Digest: n5xTbGUpXhCZ+LxEfhyfklF93vw=
+
+Name: org/springframework/spring-aop/4.0.0.RELEASE/spring-aop-4.0.0.RE
+ LEASE.jar
+SHA1-Digest: H3hRdCFUIULF8CwJLjnfLe3G7ls=
+
+Name: org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatc
+ her-1.3.jar
+SHA1-Digest: S8x822dxkzjWmwYIgQt1Joy2H/8=
+
+Name: commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+SHA1-Digest: X6Iyl7jJU9XXivDl5cAa2EwGuCw=
+
+Name: com/hp/oo/sdk/oo-action-plugin-maven-plugin/10.20.8/oo-action-pl
+ ugin-maven-plugin-10.20.8.jar
+SHA1-Digest: ZyIlxCVYt6ocK+qOdIl0Fa39y48=
+
+Name: com/hp/oo/sdk/oo-dotnet-action-plugin-proxy/10.20.8/oo-dotnet-ac
+ tion-plugin-proxy-10.20.8.jar
+SHA1-Digest: Qpzsn98+s95fXY5R1V+sbokQ6xQ=
+
+Name: com/hp/oo/sdk/oo-legacy-action-plugin/10.20.8/oo-legacy-action-p
+ lugin-10.20.8.pom
+SHA1-Digest: 3+gggL6gwZPjuHNjUIaHJ1Hj//w=
+
+Name: com/hp/oo/sdk/sdk-plugins/10.20.8/sdk-plugins-10.20.8.pom
+SHA1-Digest: 2B8nmBbEDathiEgQ+z9eGvyxKxE=
+
+Name: org/sonatype/aether/aether-api/1.13/aether-api-1.13.jar
+SHA1-Digest: GXcC72aCaKwm3HaUChiOCw32F/o=
+
+Name: org/springframework/spring-context/4.0.0.RELEASE/spring-context-
+ 4.0.0.RELEASE.jar
+SHA1-Digest: w6Mwi9kj5f5msEXBOwR93m7Wffc=
+
+Name: org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.
+ 4.jar
+SHA1-Digest: w/E547RSTvRC+J3d+YrTiCjeFe0=
+
+Name: com/hp/oo/sdk/oo-contentpack-maven-plugin/10.20.8/oo-contentpack
+ -maven-plugin-10.20.8.jar
+SHA1-Digest: m3OAIg8+6OaOsIvT0tYRFroJ3Gs=
+
+Name: org/apache/maven/wagon/wagon-http-shared/1.0/wagon-http-shared-1
+ .0.jar
+SHA1-Digest: 6xwzEOLpfUvmDKoJ4n/Eff65ous=
+
+Name: org/sonatype/aether/aether-impl/1.11/aether-impl-1.11.jar
+SHA1-Digest: ToOD2OI4WGLlY67pyKWP9K3e1AQ=
+
+Name: org/sonatype/sisu/sisu-inject-plexus/2.1.1/sisu-inject-plexus-2.
+ 1.1.jar
+SHA1-Digest: 9dQCq/qP70g7wMUf/J+adUU35vc=
+
+Name: org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.
+ jar
+SHA1-Digest: 1viDJEMi7vs+2ymy8IXt/bf27FY=
+
+Name: org/javassist/javassist/3.16.1-GA/javassist-3.16.1-GA.jar
+SHA1-Digest: jzhMrunOVpmOn7gfz0zsedoCzFA=
+
+Name: org/apache/maven/maven-settings-builder/3.0.3/maven-settings-bui
+ lder-3.0.3.jar
+SHA1-Digest: jDgz/owy6vwnDAQphiO2J3dVEOU=
+
+Name: com/hp/oo/sdk/sdk/10.20.8/sdk-10.20.8.pom
+SHA1-Digest: eAEGRghiSLn0e2upRorb2QrMVOA=
+
+Name: com/hp/oo/sdk/oo-dotnet-action-plugin/10.20.8/oo-dotnet-action-p
+ lugin-10.20.8.pom
+SHA1-Digest: Goe0237AhsBXRmcHEnIV0C491hY=
+
+Name: org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+SHA1-Digest: YWkQUC3bwzbZjSlD9GtKOKMWUPs=
+
+Name: org/sonatype/aether/aether-util/1.13/aether-util-1.13.jar
+SHA1-Digest: HZ7JOBjmaRI1OxMsLw1o1JvVvnw=
+
+Name: com/hp/score/sdk/score-content-sdk/1.3/score-content-sdk-1.3.jar
+SHA1-Digest: ViQrMZF10h8E2Ph2MB+nf3oAtHc=
+
+Name: com/hp/oo/sdk/oo-maven-support/10.20.8/oo-maven-support-10.20.8.
+ pom
+SHA1-Digest: 9shVz0cuiASV24i/rgke1VgHFa4=
+
+Name: org/apache/maven/maven-artifact/3.0.3/maven-artifact-3.0.3.jar
+SHA1-Digest: 5CCdxtxqsPWKKMAKs9DUx7iJfHE=
+
+Name: com/hp/oo/sdk/oo-abstract-plugins/10.20.8/oo-abstract-plugins-10
+ .20.8.jar
+SHA1-Digest: 24zOsi2jR+9rAC4nXIsc4/ZedOw=
+
+Name: org/apache/maven/wagon/wagon-provider-api/1.0-beta-7-ipv6/wagon-
+ provider-api-1.0-beta-7-ipv6.jar
+SHA1-Digest: ktI4gkWvju/OrdkiLJ37IlUy26k=
+
+Name: com/hp/oo/sdk/oo-action-plugin-maven-plugin/10.20.8/oo-action-pl
+ ugin-maven-plugin-10.20.8.pom
+SHA1-Digest: R1KyF+Ivsh1rqhrwmtdRVNRKrwE=
+
+Name: com/hp/oo/sdk/oo-sdk-plugins-commons/10.20.8/oo-sdk-plugins-comm
+ ons-10.20.8.jar
+SHA1-Digest: QFgN/HqFn59qbvOCK5VKfPxQOXQ=
+
+Name: org/jsoup/jsoup/1.7.3/jsoup-1.7.3.jar
+SHA1-Digest: K30pDdg5nMN58e0J50STev/xb2k=
+
+Name: com/hp/oo/sdk/oo-sdk-plugins-commons/10.20.8/oo-sdk-plugins-comm
+ ons-10.20.8.pom
+SHA1-Digest: t6d3PVEdi0ODfcDgvHlklXbdWyE=
+
+Name: org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.
+ RELEASE.jar
+SHA1-Digest: FjGynR1L1eEHOMcHgeKaWOIGpg8=
+
+Name: org/apache/maven/maven-model/3.0.3/maven-model-3.0.3.jar
+SHA1-Digest: MVJwZjFpwlO0saZGIXcQn3RGxQo=
+
+Name: org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolati
+ on-1.14.jar
+SHA1-Digest: PZqXCDKcCVsiQo9b5dPMQdDPTZk=
+
+Name: com/hp/oo/sdk/oo-plugin-archetype/10.20.8/oo-plugin-archetype-10
+ .20.8.jar
+SHA1-Digest: dMIw7l8cLHCBr0Vc+XTOt/VWymA=
+
+Name: org/springframework/spring-expression/4.0.0.RELEASE/spring-expre
+ ssion-4.0.0.RELEASE.jar
+SHA1-Digest: 6w4qgm1F4KYBqxDUP6h9P3voYVo=
+
