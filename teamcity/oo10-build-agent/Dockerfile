@@ -3,14 +3,14 @@ FROM java:openjdk-7-jdk
 MAINTAINER george@opsrobot.co.uk
 
 ENV MAVEN_VERSION 3.0.5
+ENV M2_HOME /usr/share/maven
+ENV MAVEN_HOME /usr/share/maven
 
 COPY apache-maven-$MAVEN_VERSION-bin.tar.gz /tmp
 
 RUN cat /tmp/apache-maven-$MAVEN_VERSION-bin.tar.gz | tar xzf - -C /usr/share \
   && mv /usr/share/apache-maven-$MAVEN_VERSION /usr/share/maven \
   && ln -s /usr/share/maven/bin/mvn /usr/bin/mvn
-
-ENV MAVEN_HOME /usr/share/maven
 
 COPY m2/ /root/.m2
 

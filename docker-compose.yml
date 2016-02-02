@@ -16,17 +16,17 @@ teamcity:
         - /Users/gee/Dropbox/work/al/OO/OObuild/teamcity/data:/var/lib/teamcity
         - /var/run/docker.sock:/var/run/docker.sock
 oo-agent:
-  build: teamcity/oo10-build-agent
-  links:
-    - teamcity
-  ports:
-    - "9090:9090"
-  volumes:
-    - /Users/gee/Dropbox/work/al/OO/OObuild/teamcity/
-
+    build: teamcity/oo10-build-agent
+    links:
+        - teamcity
+    ports:
+        - "9090:9090"
+    environment:
+        - M2_HOME=/usr/share/maven
+        - HPOO10_SDK=true
 ubuntu-agent:
-  build: teamcity/ubuntu-agent/base
-  links:
-    - teamcity
-  ports:
+    build: teamcity/ubuntu-agent/base
+    links:
+        - teamcity
+    ports:
     - "9091:9090"
