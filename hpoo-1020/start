@@ -1,0 +1,60 @@
+#!/bin/bash
+
+set -e
+
+if [ -z $MODE ]; then export MODE=standalone; fi
+
+if [ "$MODE" = "standalone" ] 
+then 
+	export LOGCOMMAND="tail -f /usr/local/hp/oo/central/var/logs/wrapper.log -f /usr/local/hp/oo/central/var/logs/server.log -f /var/log/postgresql/postgresql-9.4-main.log"
+	echo starting container in standalone mode
+	su postgres -c "/etc/init.d/postgresql start"
+	/usr/local/hp/oo/central/bin/central start
+fi
+
+if [ "$MODE" = "dbonly" ] 
+then 
+	export LOGCOMMAND="tail /var/log/postgresql/postgresql-9.4-main.log"
+
+	if [ -e /firstboot.flag ]
+	then
+		echo no point deleting OO - doesnt save any space on docker. 
+		# delete OO
+		#hmm how to uninstall oo
+	fi 
+	
+	echo starting container in db only mode
+	su postgres -c "/etc/init.d/postgresql start"
+fi
+
+if [ "$MODE" = "dbexternal" ] 
+then 
+	export LOGCOMMAND="tail -f /usr/local/hp/oo/central/var/logs/wrapper.log -f /usr/local/hp/oo/central/var/logs/server.log"
+
+	if [ -e /firstboot.flag ]
+	then
+		# delete postgres
+		apt-get remove -y python-software-properties software-properties-common postgresql-9.4 postgresql-client-9.4 postgresql-contrib-9.4
+	fi 
+
+	echo starting container in dbexternal mode.
+	echo attempting to use db on $DB_PORT_5432_TCP_ADDR : $DB_PORT_5432_TCP_PORT
+
+	# retarget the db using docker magic
+	cp /usr/local/hp/oo/central/conf/database.properties /usr/local/hp/oo/central/conf/database.properties.switchDB
+	cat /usr/local/hp/oo/central/conf/database.properties.switchDB | sed -e "s/localhost/$DB_PORT_5432_TCP_ADDR/g" | sed -e "s/5432/$DB_PORT_5432_TCP_PORT/g" > /usr/local/hp/oo/central/conf/database.properties
+	echo new contents of database.properties file:
+	cat /usr/local/hp/oo/central/conf/database.properties
+
+	#start OO
+	if [ "$DELAY_START" = "true" ]; then sleep 20; fi
+	/usr/local/hp/oo/central/bin/central start
+fi
+
+if [ -e /firstboot.flag ]
+then
+	#do stuff on first boot
+	rm /firstboot.flag
+fi
+
+$LOGCOMMAND
