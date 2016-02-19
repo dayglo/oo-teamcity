@@ -12,6 +12,7 @@ teamcity:
         - "8111:8111"
     links:
         - subversion
+        - oo-dev
     volumes:
         - /Users/gee/Dropbox/work/al/OO/OObuild/teamcity/data:/var/lib/teamcity
         - /var/run/docker.sock:/var/run/docker.sock
@@ -30,3 +31,19 @@ ubuntu-agent:
         - teamcity
     ports:
     - "9091:9090"
+
+oo-dev:
+    build: hpoo-1020
+    ports:
+        - "8443"
+        - "8089"
+        - "80"
+        - "443"
+oo-prod:
+    build: hpoo-1020
+    ports:
+        - "8443"
+        - "8089"
+        - "80"
+        - "443"
+
