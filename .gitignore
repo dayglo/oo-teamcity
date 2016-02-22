@@ -2,3 +2,4 @@ teamcity/data/system/buildserver.lck
 teamcity/data/systembuildserver.log
 teamcity/data/system/caches/buildsMetadata/metadataDB.lck
 teamcity/data/system/pluginData/audit
+teamcity/data/system/caches
